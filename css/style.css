@@ -1,0 +1,90 @@
+/*CSS Reset*/
+body{
+     margin : 0px;
+     padding: 0px;
+     background : url('../img/bg.jpg');
+     color: white;
+}
+
+.left{
+display : inline-block;
+/*border : 2px solid red;*/
+position: absolute;
+top: 5px;
+padding : 10px;
+
+
+}
+.left img{
+width: 80px;
+filter: invert(100%);
+}
+.left div{
+text-align : center;
+font-family:   Helvetica, sans-serif;
+
+}
+.mid{
+display: block;
+width: 50%;
+margin: 20px auto;
+/*border : 2px solid green;
+*/
+
+}
+
+.right{
+position: absolute;
+top: 20px;
+right: 20px;
+display : inline-block;
+/*border : 2px solid yellow;*/
+padding : 10px;
+}
+.right input{
+border-radius: 18px ;
+}
+
+
+
+.navbar{
+display:inline-block;
+}
+
+.navbar li{
+display: inline-block;
+font-size : 25px;
+}
+
+.navbar li a{
+color: white;
+text-decoration : none;
+padding : 34px 22px;
+}
+
+.navbar li a:hover,.navbar li a.active {
+text-decoration: underline;
+color: grey;
+}
+
+.text{
+/*border: 2px solid aqua;*/
+display: inline-block;
+position: relative;
+top:150px;
+left: 950px;
+padding: 50px;
+}
+.text h1{
+  font-weight:700;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+    margin : 15px;
+}
+.text h5{
+  font-weight:700;
+   font-family: 'Ubuntu', sans-serif;
+     font-size: 24px;
+     margin: 0px;
+     text-align: center;
+}
